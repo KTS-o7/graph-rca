@@ -1,0 +1,104 @@
+Jan  5 09:12:37 dell-Inspiron-5584 kernel: [   11.299414] loop34: detected capacity change from 0 to 8
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.737646] wlp4s0: authenticate with 56:4d:9f:9c:cd:0a (local address=c0:b5:d7:9e:dd:95)
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.737660] wlp4s0: send auth to 56:4d:9f:9c:cd:0a (try 1/3)
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.751382] wlp4s0: authenticated
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.752574] wlp4s0: associate with 56:4d:9f:9c:cd:0a (try 1/3)
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.782281] wlp4s0: RX AssocResp from 56:4d:9f:9c:cd:0a (capab=0x1011 status=0 aid=4)
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785440] wlp4s0: associated
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785879] ath: EEPROM regdomain: 0x8164
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785892] ath: EEPROM indicates we should expect a country code
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785898] ath: doing EEPROM country->regdmn map search
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785904] ath: country maps to regdmn code: 0x5b
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785909] ath: Country alpha2 being used: IN
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785915] ath: Regpair used: 0x5b
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785919] ath: regdomain 0x8164 dynamically updated by country element
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.855161] wlp4s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 56:4d:9f:9c:cd:0a
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.979110] warning: `warp-svc' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
+Jan  5 09:12:41 dell-Inspiron-5584 kernel: [   15.182160] kauditd_printk_skb: 67 callbacks suppressed
+Jan  5 09:12:41 dell-Inspiron-5584 kernel: [   15.182170] audit: type=1400 audit(1736048561.047:81): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=1424 comm="apparmor_parser"
+Jan  5 09:12:41 dell-Inspiron-5584 kernel: [   15.366638] evm: overlay not supported
+Jan  5 09:12:41 dell-Inspiron-5584 kernel: [   15.569815] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Jan  5 09:12:41 dell-Inspiron-5584 kernel: [   15.597718] Bridge firewalling registered
+Jan  5 09:12:41 dell-Inspiron-5584 kernel: [   15.984834] Initializing XFRM netlink socket
+Jan  5 09:12:44 dell-Inspiron-5584 kernel: [   18.446791] audit: type=1400 audit(1736048564.312:82): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/23258/usr/lib/snapd/snap-confine" pid=1728 comm="snap-confine" capability=12  capname="net_admin"
+Jan  5 09:12:44 dell-Inspiron-5584 kernel: [   18.446817] audit: type=1400 audit(1736048564.312:83): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/23258/usr/lib/snapd/snap-confine" pid=1728 comm="snap-confine" capability=38  capname="perfmon"
+Jan  5 09:12:47 dell-Inspiron-5584 kernel: [   21.863817] Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7
+Jan  5 09:12:48 dell-Inspiron-5584 kernel: [   22.370720] rfkill: input handler disabled
+Jan  5 09:13:37 dell-Inspiron-5584 kernel: [   73.253638] audit: type=1400 audit(1736048617.436:84): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/23258/usr/lib/snapd/snap-confine" pid=2214 comm="snap-confine" capability=12  capname="net_admin"
+Jan  5 09:13:37 dell-Inspiron-5584 kernel: [   73.253678] audit: type=1400 audit(1736048617.436:85): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/23258/usr/lib/snapd/snap-confine" pid=2214 comm="snap-confine" capability=38  capname="perfmon"
+Jan  5 09:13:37 dell-Inspiron-5584 kernel: [   73.381998] rfkill: input handler enabled
+Jan  5 09:13:39 dell-Inspiron-5584 kernel: [   74.816147] Bluetooth: RFCOMM TTY layer initialized
+Jan  5 09:13:39 dell-Inspiron-5584 kernel: [   74.816168] Bluetooth: RFCOMM socket layer initialized
+Jan  5 09:13:39 dell-Inspiron-5584 kernel: [   74.816183] Bluetooth: RFCOMM ver 1.11
+Jan  5 09:12:39 dell-Inspiron-5584 NetworkManager[903]: <info>  [1736048559.6197] device (p2p-dev-wlp4s0): supplicant management interface state: authenticating -> associating
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.782281] wlp4s0: RX AssocResp from 56:4d:9f:9c:cd:0a (capab=0x1011 status=0 aid=4)
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785440] wlp4s0: associated
+Jan  5 09:12:39 dell-Inspiron-5584 wpa_supplicant[938]: wlp4s0: Associated with 56:4d:9f:9c:cd:0a
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785879] ath: EEPROM regdomain: 0x8164
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785892] ath: EEPROM indicates we should expect a country code
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785898] ath: doing EEPROM country->regdmn map search
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785904] ath: country maps to regdmn code: 0x5b
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785909] ath: Country alpha2 being used: IN
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785915] ath: Regpair used: 0x5b
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.785919] ath: regdomain 0x8164 dynamically updated by country element
+Jan  5 09:12:39 dell-Inspiron-5584 wpa_supplicant[938]: wlp4s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jan  5 09:12:39 dell-Inspiron-5584 wpa_supplicant[938]: wlp4s0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=IN
+Jan  5 09:12:39 dell-Inspiron-5584 kernel: [   13.855161] wlp4s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 56:4d:9f:9c:cd:0a
+Jan  5 09:12:39 dell-Inspiron-5584 wpa_supplicant[938]: wlp4s0: WPA: Key negotiation completed with 56:4d:9f:9c:cd:0a [PTK=CCMP GTK=CCMP]
+Jan  5 09:12:39 dell-Inspiron-5584 wpa_supplicant[938]: wlp4s0: CTRL-EVENT-CONNECTED - Connection to 56:4d:9f:9c:cd:0a completed [id=0 id_str=]
+Jan  5 09:12:39 dell-Inspiron-5584 NetworkManager[903]: <info>  [1736048559.7359] device (wlp4s0): supplicant interface state: associating -> completed
+Jan  5 09:12:39 dell-Inspiron-5584 NetworkManager[903]: <info>  [1736048559.7359] device (wlp4s0): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "AirFiber-ae3Phe"
+127.0.0.1 - - [10/Jan/2025:11:00:00 +0530] "GET /index.html HTTP/1.1" 200 512
+192.168.1.10 - - [10/Jan/2025:11:01:00 +0530] "POST /api/login HTTP/1.1" 403 235
+203.0.113.5 - - [10/Jan/2025:11:02:00 +0530] "GET /about.html HTTP/1.1" 404 1234
+198.51.100.23 - - [10/Jan/2025:11:03:00 +0530] "GET /contact.php HTTP/1.1" 500 2048
+127.0.0.1 - - [10/Jan/2025:11:04:00 +0530] "GET /images/logo.png HTTP/1.1" 200 1024
+192.168.1.15 - - [10/Jan/2025:11:05:00 +0530] "DELETE /api/user HTTP/1.1" 401 345
+192.168.2.20 - - [10/Jan/2025:11:06:00 +0530] "GET /products HTTP/2" 200 2048
+203.0.113.15 - - [10/Jan/2025:11:07:00 +0530] "POST /api/register HTTP/2" 201 512
+198.51.100.30 - - [10/Jan/2025:11:08:00 +0530] "GET /nonexistent.html HTTP/2" 404 256
+127.0.0.1 - - [10/Jan/2025:11:09:00 +0530] "GET /favicon.ico HTTP/2" 200 512
+192.168.2.25 - - [10/Jan/2025:11:10:00 +0530] "PUT /api/update HTTP/2" 403 128
+203.0.113.45 - - [10/Jan/2025:11:11:00 +0530] "GET /status HTTP/2" 500 1024
+::1 W3SVC1 10/Jan/2025 11:12:00 GET /default.aspx 200 512
+::1 W3SVC1 10/Jan/2025 11:13:00 POST /api/data 201 1024
+::1 W3SVC1 10/Jan/2025 11:14:00 GET /error.html 404 256
+::1 W3SVC2 10/Jan/2025 11:15:00 GET /home.aspx 500 2048
+::1 W3SVC2 10/Jan/2025 11:16:00 GET /about.aspx 200 1024
+::1 W3SVC2 10/Jan/2025 11:17:00 POST /api/login 401 128
+2025-01-10 11:18:00 INFO com.example.MyApp User 'john_doe' logged in successfully
+2025-01-10 11:19:15 ERROR com.example.MyApp Failed to connect to database
+2025-01-10 11:20:30 WARN com.example.MyApp User 'jane_doe' attempted to access forbidden resource
+2025-01-10 11:21:45 DEBUG com.example.MyApp Processing request for user profile
+2025-01-10 11:22:50 INFO com.example.MyApp User 'john_doe' logged out
+2025-01-10 11:23:55 FATAL com.example.MyApp Unhandled exception occurred
+2025-01-10T11:24:00Z info User 'john_doe' has logged in successfully
+2025-01-10T11:25:15Z error Database connection failed for user 'admin'
+2025-01-10T11:26:30Z warn User 'jane_doe' tried to access restricted area
+2025-01-10T11:27:45Z debug Request received for endpoint '/api/data'
+2025-01-10T11:28:50Z info User 'john_doe' has logged out
+2025-01-10T11:29:55Z fatal Critical error in application
+[10/Jan/2025 11:30 AM] "GET /home HTTP/1.1" status_code=200 response_time=50ms
+[10/Jan/2025 11:31 AM] "POST /api/create HTTP/1.1" status_code=201 response_time=75ms
+[10/Jan/2025 11:32 AM] "GET /nonexistent HTTP/1.1" status_code=404 response_time=30ms
+[10/Jan/2025 11:33 AM] "GET /about HTTP/1.1" status_code=500 response_time=100ms
+[10/Jan/2025 11:34 AM] "PUT /api/update HTTP/1.1" status_code=403 response_time=60ms
+[10/Jan/2025 11:35 AM] "DELETE /api/user HTTP/1.1" status_code=401 response_time=80ms
+Jan 10 11:36 AM myhostname systemd[123]: Started MySQL Database Server
+Jan 10 11:37 AM myhostname kernel[456]: [123456789] eth0 link up
+Jan 10 11:38 AM myhostname sshd[789]: Accepted password for user 'admin' from IP address '192.168.x.x'
+Jan 10 11:39 AM myhostname CRON[101112]: (root) CMD (run-parts --report /etc/cron.hourly)
+Jan 10 11:40 AM myhostname systemd[123]: Stopped MySQL Database Server
+Jan 10 11:41 AM myhostname kernel[456]: [123456789] eth0 link down
+commit e3b0c44298fc... Author:'john@example.com', Date:'Fri Jan  9 12... Initial commit 
+commit b7c9c44298fc... Author:'jane@example.com', Date:'Fri Jan  9 12... Added new feature X 
+commit f8a9c44298fc... Author:'admin@example.com', Date:'Fri Jan  9 12... Fixed bug Y 
+commit d7c9c44298fc... Author:'john@example.com', Date:'Fri Jan  9 12... Updated documentation 
+commit c7a9c44298fc... Author:'jane@example.com', Date:'Fri Jan  9 12... Refactored code Z 
+commit a7c9c44298fc... Author:'admin@example.com', Date:'Fri Jan  9 12... Merged branch feature-X into main
+[Note] [MY-SQL]: Access denied for user 'root'@'localhost' (using password:YES)
+[Warning] [MY-SQL]: Table './mydb/users' is marked as crashed and should be repaired
+[Note] [MY-SQL]: Query OK, rows affected =12 in database mydb on table users 
+[Error] [MY-SQL]: Duplicate entry for key PRIMARY on table users 
+[Note] [MY-SQL]: Shutdown complete on server instance mysql 
+[Warning] [MY-SQL]: InnoDB is in read-only mode
