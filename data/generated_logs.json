@@ -1,0 +1,3352 @@
+[
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:27:47.599654",
+        "pid": 77593,
+        "level": "WARNING",
+        "component": "GarbageCollectionMonitor",
+        "message": "Increased memory usage due to non-released objects causing garbage collection pauses and full GC events that can lead to application unresponsiveness.",
+        "trace_id": "dbdbafa1-34f4-4d00-b8a1-404ea960c29a",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:27:49.505611",
+        "pid": 71883,
+        "level": "INFO",
+        "component": "database_queries",
+        "message": "Increasing response times in database queries detected, investigating further.",
+        "trace_id": "27c2cb62-b951-462d-8dd9-1a16531dbf2f",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:27:50.973934",
+        "pid": 13131,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Increasing response times in database queries due to high load.",
+        "trace_id": "ca6b1ba3-5419-4a47-8600-5701e55b76b5",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:27:52.446822",
+        "pid": 32415,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "e5f1de45-12b3-45a8-9eb8-8ec8cd20a509",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:27:53.915636",
+        "pid": 79546,
+        "level": "CRITICAL",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while attempting to connect to the database.",
+        "trace_id": "4ba7a663-7bcf-4d1b-a6fb-6d088994a4a6",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:27:55.396425",
+        "pid": 51613,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "8cd92d2a-0480-4663-9e41-757d8fc349e1",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:27:56.935786",
+        "pid": 72891,
+        "level": "ERROR",
+        "component": "HTTP_SERVER",
+        "message": "Request failed due to service degradation, causing a significant drop in response time.",
+        "trace_id": "9511e65c-9645-4d14-8494-38c74207cce1",
+        "error_code": 503
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:28:00.385710",
+        "pid": 96727,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "18cc3fb0-0a88-4008-bed2-1efe358a7e9d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:02.123454",
+        "pid": 53476,
+        "level": "INFO",
+        "component": "DATABASE_QUERY_SERVICE",
+        "message": "Increasing response times in database queries, likely due to increased load or slow query execution.",
+        "trace_id": "b9475d40-41d2-4a25-9f7c-d996e0835126",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:03.652146",
+        "pid": 34524,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Increasing response times in database queries due to high load.",
+        "trace_id": "d5e13092-9f30-4369-8363-cdcea8307e78",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:05.222951",
+        "pid": 78333,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while establishing a connection to the server.",
+        "trace_id": "d554a787-82d2-4ef7-a5a5-37bb76ef957c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:06.699906",
+        "pid": 43003,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while trying to establish a connection with the server.",
+        "trace_id": "a715d6a0-be75-4b30-bcb0-32f5736bc48f",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:08.200448",
+        "pid": 28080,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "c0d88387-1727-4ede-9f98-a722a0e1d64a",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:09.646445",
+        "pid": 96711,
+        "level": "ERROR",
+        "component": "HTTP_SERVER",
+        "message": "Request failed due to service degradation, potential downtime in the backend system.",
+        "trace_id": "4eb85824-9e0a-4a70-834f-8e3b4a618d7b",
+        "error_code": 503
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:28:13.680995",
+        "pid": 64415,
+        "level": "WARNING",
+        "component": "MEMORY_MANAGER",
+        "message": "Increased memory usage due to non-released objects causing garbage collection pauses and full GC events that can lead to application unresponsiveness.",
+        "trace_id": "9cb2bd89-d86f-4591-b7f6-869a87774edc",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:15.570970",
+        "pid": 55265,
+        "level": "INFO",
+        "component": "database_query_performance",
+        "message": "Increasing response times in database queries, observed for the last 30 minutes.",
+        "trace_id": "8b68fa98-0f2f-4d4d-85f5-a9b569ad563f",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:17.093376",
+        "pid": 97083,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Increasing response times in database queries are observed.",
+        "trace_id": "8e8750d0-a3f1-4689-9aa7-c8e13efe5e70",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:18.699973",
+        "pid": 39669,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "1041fb42-5205-402e-97e2-3cdd4821a889",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:20.148918",
+        "pid": 71020,
+        "level": "ERROR",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout occurred while trying to establish a connection with the server.",
+        "trace_id": "c49065ed-a8d7-4af8-afe3-f6f975e915e9",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:21.618899",
+        "pid": 24914,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to reach the target system.",
+        "trace_id": "70c7282f-53f7-4242-aa00-affc814b476d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:23.067417",
+        "pid": 35836,
+        "level": "ERROR",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation and request failures detected.",
+        "trace_id": "9cbe9f5f-6911-4f7b-9648-fc9fe6b099d2",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:28:26.392770",
+        "pid": 80342,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "cdaf3f1e-7544-4f31-af58-aeeea4a28fc0",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:28.112440",
+        "pid": 36619,
+        "level": "INFO",
+        "component": "DB_QUERY_MONITORING",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "e15936d5-d37f-41bc-bf7d-a1f031184a5d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:29.550698",
+        "pid": 17223,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Database query execution time exceeded the expected limit of 1 second.",
+        "trace_id": "6ec93d46-03a3-4f51-82d6-e036b13c8d10",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:31.033416",
+        "pid": 95024,
+        "level": "INFO",
+        "component": "HTTP_CLIENT",
+        "message": "Connection timeout error detected for request to http://example.com/api/data",
+        "trace_id": "d809b5b4-a556-46c6-bc4d-d061e25ccad9",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:32.542797",
+        "pid": 10860,
+        "level": "CRITICAL",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while attempting to connect to the database.",
+        "trace_id": "4384ef89-f42f-4e77-977c-4777066aebb0",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:33.999004",
+        "pid": 21929,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "408a0a76-bd98-42e7-a379-c71fc256c6ff",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:35.486816",
+        "pid": 24666,
+        "level": "ERROR",
+        "component": "HTTP_SERVER",
+        "message": "Request failed with status code 503, service degraded.",
+        "trace_id": "c0c6be8b-63d4-48cd-9091-2582e758012e",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:28:39.525327",
+        "pid": 94387,
+        "level": "WARNING",
+        "component": "GarbageCollectionMonitor",
+        "message": "Increased memory usage due to non-released objects causing garbage collection pauses and full GC events that can lead to application unresponsiveness.",
+        "trace_id": "b28fd8c2-9682-4717-81ce-f2c6582fc1af",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:41.433713",
+        "pid": 19792,
+        "level": "INFO",
+        "component": "DB_QUERY_MONITORING",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "7a3be4df-4bbe-4734-bd8d-0fe40c72e089",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:43.016114",
+        "pid": 49017,
+        "level": "CRITICAL",
+        "component": "DATABASE_QUERY_SERVICE",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "e385eb69-d1db-4d71-92aa-fb70337686de",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:44.497037",
+        "pid": 58615,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "690d63a8-ae8a-49df-b13f-3857717243e1",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:45.979800",
+        "pid": 61544,
+        "level": "ERROR",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout occurred while trying to establish a connection with the server.",
+        "trace_id": "ebae65f9-fd2a-4fe3-a2ef-d1aeed4bfa80",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:47.438620",
+        "pid": 80154,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to reach the target system.",
+        "trace_id": "788d6bbf-1efa-4e24-938e-3d4c56b92ce0",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:48.896932",
+        "pid": 35618,
+        "level": "CRITICAL",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation detected due to request failures.",
+        "trace_id": "6205e9c2-db83-4286-b688-246ec4d63830",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:28:52.622029",
+        "pid": 81350,
+        "level": "WARNING",
+        "component": "MEMORY_MANAGER",
+        "message": "Increased memory usage due to non-released objects causing garbage collection pauses and full GC events that can lead to application unresponsiveness.",
+        "trace_id": "d76d3b75-a7ac-4e96-89b1-6419a48631d7",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:54.528280",
+        "pid": 12843,
+        "level": "INFO",
+        "component": "database_query_performance",
+        "message": "Increasing response times in database queries, observed for the last 5 minutes.",
+        "trace_id": "bc523b22-d4b3-4171-be62-4f17bcde6a11",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:56.912908",
+        "pid": 40255,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Increasing response times in database queries are observed.",
+        "trace_id": "c8559fe3-1355-4d5c-848c-dd914a66aaa8",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:28:59.036431",
+        "pid": 52691,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "16398e9f-a3c2-4e77-9e72-d7c04f6550dc",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:00.734906",
+        "pid": 38453,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while trying to establish a connection with the server.",
+        "trace_id": "d2d1302f-f7ed-4896-b7f9-81672e8ef3e3",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:02.399088",
+        "pid": 27803,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "1dcd3c6b-9da7-4369-83fa-b4ccc5328133",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:04.194580",
+        "pid": 79693,
+        "level": "ERROR",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation and request failures detected.",
+        "trace_id": "d6ef09bc-f4c6-40f5-be6c-61c703bfaefb",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:29:09.151237",
+        "pid": 21816,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "a06f4d22-d242-40ae-9744-98c2d75eb0c0",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:11.254202",
+        "pid": 48358,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "a8eebcae-3a21-481e-80ad-557ce3d95274",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:13.033381",
+        "pid": 17562,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "f3be746e-183f-45ae-b9f5-eead4e02c8f3",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:14.867783",
+        "pid": 85919,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "b10ee1b3-ee0d-4842-8480-5521569eaed1",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:16.713631",
+        "pid": 79324,
+        "level": "CRITICAL",
+        "component": "BACKEND_SYSTEMS",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "9baef36e-0948-4f26-a58e-a27c1daf50b3",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:18.178283",
+        "pid": 66411,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "65b4da66-c3d2-436c-b6db-c824061b984e",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:19.622497",
+        "pid": 68987,
+        "level": "CRITICAL",
+        "component": "AUTHENTICATION_SERVICE",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "eea9710d-d0a7-413c-8b67-7fa34be67829",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:29:23.515746",
+        "pid": 28761,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "94b6675f-a0c6-4e08-a36e-3b9fc786b1be",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:25.353975",
+        "pid": 17474,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "86a0951a-8210-4674-b89d-a3b302d23182",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:26.875136",
+        "pid": 86929,
+        "level": "CRITICAL",
+        "component": "AUTH_SERVICE",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts",
+        "trace_id": "8f0dcac2-b6a8-45ec-a81f-3ca4b6e31d33",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:28.353888",
+        "pid": 34256,
+        "level": "INFO",
+        "component": "BackendSystem",
+        "message": "Increased load on backend systems due to higher volume of malicious requests",
+        "trace_id": "3a7ccda9-20d9-4653-917b-de333f2fa8b3",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:29.809278",
+        "pid": 45230,
+        "level": "CRITICAL",
+        "component": "BACKEND_SYSTEMS",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "9637dab7-d052-41c1-9019-04a23fa23e3b",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:31.320758",
+        "pid": 39672,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "64404cb1-df7e-441f-8403-811197539304",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:32.777478",
+        "pid": 53596,
+        "level": "CRITICAL",
+        "component": "AUTHENTICATION_SERVICE",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "85701c6c-9952-4ed8-a2a0-65072265c68e",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:29:36.692703",
+        "pid": 13411,
+        "level": "WARNING",
+        "component": "API_RATE_LIMITER",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "d065cec0-e7ef-48fd-aa20-5a4ec40c45b0",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:38.521364",
+        "pid": 95566,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "c9a15b3f-107f-407c-839e-85d573574b5c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:40.045302",
+        "pid": 66722,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "2e13626e-b05b-4bd9-8e8a-941a62ac70b7",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:41.546949",
+        "pid": 95232,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "8b015700-e3e9-4d20-8899-9817bdd04ffc",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:43.002989",
+        "pid": 44669,
+        "level": "CRITICAL",
+        "component": "BACKEND_SYSTEMS",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "c07feca4-97fb-456a-a6b5-bf38fe8508d5",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:44.468288",
+        "pid": 88701,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "ea0180fa-3e7c-490e-a8f4-6c758da9bc17",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:45.914120",
+        "pid": 70733,
+        "level": "ERROR",
+        "component": "AuthenticationService",
+        "message": "Detected data breaches due to weak authentication mechanisms.",
+        "trace_id": "148f699e-565f-46fe-af01-85ffa5661b3b",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:29:49.899363",
+        "pid": 36243,
+        "level": "WARNING",
+        "component": "GarbageCollectionMonitor",
+        "message": "Increased memory usage due to non-released objects causing garbage collection pauses and full GC events that can lead to application unresponsiveness.",
+        "trace_id": "3fdfd5de-9452-4c07-8564-9e9bd1391946",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:53.374232",
+        "pid": 31926,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Increasing response times in database queries due to high load.",
+        "trace_id": "ebcf4675-49da-4937-8189-008d339970c4",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:54.884474",
+        "pid": 61899,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "baa1b320-93ea-44ec-8816-5eb11101e4b5",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:56.354962",
+        "pid": 87828,
+        "level": "CRITICAL",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while attempting to connect to the database.",
+        "trace_id": "1c70b315-ac26-4037-8081-4dec35edd0ac",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:57.922587",
+        "pid": 63154,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "c8ef139e-f712-49a2-bdd6-87a32995b20c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:29:59.380771",
+        "pid": 71856,
+        "level": "CRITICAL",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation detected due to request failures.",
+        "trace_id": "4d7d3f1f-4b41-4840-89a1-f1e56c08093f",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:46.789101",
+        "pid": 12345,
+        "level": "INFO",
+        "component": "DATABASE_SERVICE",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "f9b7a2c3-d4e5-4678-b90a-3d4e56789012",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:30:03.365924",
+        "pid": 29914,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "00f33d3a-b9b7-4a91-8710-a04c700a443a",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:05.226268",
+        "pid": 37758,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "74c88b80-8832-4e5b-843a-58c30396569a",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:06.741970",
+        "pid": 64578,
+        "level": "ERROR",
+        "component": "AUTH_SERVICE",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts",
+        "trace_id": "4508b8f2-347d-4e31-97b3-5e0637c2e706",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:08.343205",
+        "pid": 57742,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "6127b7f9-5a0c-4397-9edb-f337cde9a96f",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:09.888631",
+        "pid": 42771,
+        "level": "CRITICAL",
+        "component": "BACKEND_SYSTEMS",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "df5c838d-b09c-46a5-a80c-c0931885d9d3",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:11.369283",
+        "pid": 23007,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "728c5a14-0177-4bfc-9116-c770b78a58bb",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:12.827731",
+        "pid": 35551,
+        "level": "CRITICAL",
+        "component": "AUTHENTICATION_SERVICE",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "c2ac2489-384b-4c2a-81f0-02146bc49be6",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:30:16.160715",
+        "pid": 62249,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "02f345dd-d653-497a-9854-a72c6604925f",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:17.942861",
+        "pid": 15959,
+        "level": "INFO",
+        "component": "DB_QUERY_MONITORING",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "6d44ff4e-c0c7-4fd1-b50b-1e157831f7d7",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:19.370304",
+        "pid": 53805,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Increasing response times in database queries due to high load.",
+        "trace_id": "fc604da1-c2ba-4167-9c51-93b1792e78d5",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:20.822296",
+        "pid": 74544,
+        "level": "INFO",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout error occurred while establishing a connection to the database.",
+        "trace_id": "4c918c14-a57b-49d0-8d2f-f3d50061b808",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:22.300032",
+        "pid": 84488,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout error detected in the application layer.",
+        "trace_id": "7148b3bb-4e01-4fcc-be58-4e6ae7e27546",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:23.718928",
+        "pid": 67147,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "a5d635eb-3246-4565-83db-442656569f99",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:25.214322",
+        "pid": 66354,
+        "level": "CRITICAL",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation detected due to request failures.",
+        "trace_id": "f5ca9481-8325-4796-9ddf-7bcb3d60312c",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:30:29.180556",
+        "pid": 96453,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "3fe6a3b0-31f6-4a3a-a465-35781cdef1dd",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:31.003247",
+        "pid": 91008,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "054e6348-595a-4557-886c-fdb3cbf7a4e5",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:32.536297",
+        "pid": 94953,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "acbb4d2f-15a0-4b5d-a13c-18aa13982daa",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:34.001785",
+        "pid": 59188,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "589120bb-43b2-4619-b81c-e210a473df67",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:35.501294",
+        "pid": 99264,
+        "level": "ERROR",
+        "component": "BackendSystem",
+        "message": "Detected increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "9fe0b8f8-a995-4f73-8cb9-f5e8cd0c54e6",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:37.005044",
+        "pid": 78923,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "fb5e1561-ad0c-40a8-a15a-470e32c778d8",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:38.466280",
+        "pid": 91126,
+        "level": "CRITICAL",
+        "component": "AUTHENTICATION_SERVICE",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "1e90c7ef-93e9-4be7-8909-6712c5984492",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:30:42.465233",
+        "pid": 39776,
+        "level": "WARNING",
+        "component": "GarbageCollectionMonitor",
+        "message": "Increased memory usage due to non-released objects causing garbage collection pauses and full GC events that can lead to application unresponsiveness.",
+        "trace_id": "1dc27a18-cc27-471e-ab9f-008c443e3430",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:44.365372",
+        "pid": 16552,
+        "level": "INFO",
+        "component": "DB_QUERY_MONITORING",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "f40979f6-7287-411a-997d-4ddbe9d7d586",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:45.866479",
+        "pid": 10374,
+        "level": "CRITICAL",
+        "component": "DATABASE_QUERY_SERVICE",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "9d8c7548-e641-4bb4-9723-0b82df7d4b68",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:47.343425",
+        "pid": 76088,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "a2071afe-5f7e-42ad-b897-5aef6cf02d91",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:48.797008",
+        "pid": 99155,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout error detected in the application layer.",
+        "trace_id": "70a846d7-52f8-441d-b99f-dd72e88a17a9",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:50.224500",
+        "pid": 30881,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "b00aeada-8d86-4ec2-b4bb-4136b72d45f8",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:51.700867",
+        "pid": 12384,
+        "level": "ERROR",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation and request failures detected.",
+        "trace_id": "b1449ef0-7530-4d6d-9ff0-d2af146c96f9",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:30:55.456837",
+        "pid": 92835,
+        "level": "WARNING",
+        "component": "GarbageCollectionMonitor",
+        "message": "Increased memory usage due to non-released objects causing garbage collection pauses and full GC events that can lead to application unresponsiveness.",
+        "trace_id": "33e14446-c0c8-4662-8641-ef2f6e012d10",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:57.391833",
+        "pid": 52934,
+        "level": "INFO",
+        "component": "DATABASE_SERVICE",
+        "message": "Increasing response times in database queries",
+        "trace_id": "b0b745d6-a081-41d4-b9a5-1054b325db9e",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:30:58.818943",
+        "pid": 15370,
+        "level": "CRITICAL",
+        "component": "DATABASE_QUERY_SERVICE",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "57afa139-9476-4637-b1c5-a53643ff44f0",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:00.246490",
+        "pid": 89771,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "85de01af-dc0d-4c48-8162-64d495698566",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:01.735468",
+        "pid": 18728,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout error detected in the application layer.",
+        "trace_id": "274ff702-9274-4247-be43-1a132ac12d88",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:03.236203",
+        "pid": 47681,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "8f2eadd2-46b4-4662-b038-686b94573bbd",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:04.683560",
+        "pid": 56388,
+        "level": "CRITICAL",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation detected due to request failures.",
+        "trace_id": "7fe1845e-0884-451b-ab68-69bbcfc5126d",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:31:08.421341",
+        "pid": 29338,
+        "level": "WARNING",
+        "component": "GarbageCollectionMonitor",
+        "message": "Increased memory usage due to non-released objects causing garbage collection pauses and full GC events that can lead to application unresponsiveness.",
+        "trace_id": "ca57d639-b178-4f59-be18-eee19b91cb22",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:10.279415",
+        "pid": 23377,
+        "level": "INFO",
+        "component": "DATABASE_SERVICE",
+        "message": "Increasing response times in database queries",
+        "trace_id": "bb167a7e-d1e7-47f5-8f0f-77cb0dc8a0d0",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:11.732754",
+        "pid": 85829,
+        "level": "CRITICAL",
+        "component": "DATABASE_QUERY_SERVICE",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "51a791c1-9c1c-40ea-ae13-85a512f6b462",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:13.219219",
+        "pid": 85589,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "ae6a4518-7c2d-4606-aba3-14b283d4d9f5",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:14.695326",
+        "pid": 64413,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout error detected in the application layer.",
+        "trace_id": "9cbe4790-4953-4cb5-8995-f36c4188d882",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:16.176828",
+        "pid": 20002,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "bfeb3a23-2e02-4253-9604-3c704ca03c06",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:17.660399",
+        "pid": 37197,
+        "level": "CRITICAL",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation detected due to request failures.",
+        "trace_id": "982ef9bf-639a-47a9-a0c7-a587183b2273",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:31:21.057861",
+        "pid": 25047,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "48ebb410-f413-4af9-9ba5-87a7117c1989",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:22.802432",
+        "pid": 18669,
+        "level": "INFO",
+        "component": "DB_QUERY_MONITORING",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "220e9368-0532-4422-a733-8063477f7cf6",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:24.359269",
+        "pid": 77334,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Increasing response times in database queries due to high load.",
+        "trace_id": "fb7b828a-b22d-4dc0-ae7a-3d762c2aa962",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:25.825075",
+        "pid": 12389,
+        "level": "INFO",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout error occurred while establishing a connection to the database.",
+        "trace_id": "04eb32c1-b10c-42aa-a448-c923d799b786",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:27.341926",
+        "pid": 31596,
+        "level": "CRITICAL",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while attempting to connect to the database.",
+        "trace_id": "8989ea26-3e91-4200-b079-69ca87daac41",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:28.778686",
+        "pid": 66209,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to reach the target system.",
+        "trace_id": "4b7e179f-bd6c-42d6-91d2-526fd66338ad",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:30.368906",
+        "pid": 54589,
+        "level": "CRITICAL",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation detected due to request failures.",
+        "trace_id": "bd313954-32ca-46a4-8666-f4b5eaf096b1",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:31:34.384940",
+        "pid": 96010,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "52945c75-c391-4deb-82de-a1135af36508",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:36.214341",
+        "pid": 71347,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "62c737e6-302d-4af6-8ee6-8224f77e0a8c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:37.736843",
+        "pid": 43734,
+        "level": "ERROR",
+        "component": "AUTH_SERVICE",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts",
+        "trace_id": "193ce37f-a362-4bb3-adbd-1fb9002e8ae9",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:39.217968",
+        "pid": 41513,
+        "level": "INFO",
+        "component": "BackendSystem",
+        "message": "Increased load on backend systems due to higher volume of malicious requests",
+        "trace_id": "7d697692-7a01-4ea3-8582-ec05f017a5a2",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:40.769103",
+        "pid": 74293,
+        "level": "ERROR",
+        "component": "BackendSystem",
+        "message": "Detected increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "41262281-709a-45c5-8031-5d6262e70ce7",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:42.277274",
+        "pid": 49111,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "bb2901a1-35af-431a-a1ca-864915206067",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:43.705912",
+        "pid": 75674,
+        "level": "CRITICAL",
+        "component": "AUTHENTICATION_SERVICE",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "01e16173-f6cb-4e1d-b7e2-f2ca9e7e5947",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:31:47.687099",
+        "pid": 69674,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "ef17d6e7-ac29-4460-8c25-8d0adb621dd8",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:49.507033",
+        "pid": 37807,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "e61d953f-7131-4826-ba70-1067a30d2b4d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:51.026013",
+        "pid": 42433,
+        "level": "CRITICAL",
+        "component": "AUTH_SERVICE",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts",
+        "trace_id": "522ff1a4-d511-4e7e-9d73-b69337313b5c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:52.549008",
+        "pid": 71658,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "0d48e537-e826-4ef9-b062-8453e971dc7e",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:54.017628",
+        "pid": 10667,
+        "level": "CRITICAL",
+        "component": "BACKEND_SYSTEMS",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "d502ab90-1e13-45de-ad50-401669e83f31",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:55.520170",
+        "pid": 88833,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "68557e60-cbf0-48b8-9431-487d678332fa",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:31:56.966394",
+        "pid": 75553,
+        "level": "ERROR",
+        "component": "AuthenticationService",
+        "message": "Detected data breaches due to weak authentication mechanisms.",
+        "trace_id": "61412f8d-fc93-47c2-984d-5c2a482fdf67",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:32:00.374638",
+        "pid": 60163,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "fb1415e5-ffcb-4e4f-8f7f-a9e31f94887c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:02.154874",
+        "pid": 31230,
+        "level": "INFO",
+        "component": "DB_QUERY_MONITORING",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "754261b7-b203-4d42-844b-50ae6bc17684",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:03.623435",
+        "pid": 89753,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Increasing response times in database queries due to high load.",
+        "trace_id": "ff426a61-ef29-4fa7-95f2-52c5c11faed1",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:05.124945",
+        "pid": 71301,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while establishing a connection to the server.",
+        "trace_id": "ed4f07e1-6bd2-4c1e-bfb4-976217963ba5",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:06.592465",
+        "pid": 18674,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while trying to establish a connection with the server.",
+        "trace_id": "55cfabe0-0330-48d3-a117-ee05aa049a81",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:08.034657",
+        "pid": 85717,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "c5d845ff-c4a8-4b48-8c53-fb6efc79aef5",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:09.623864",
+        "pid": 40799,
+        "level": "ERROR",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation and request failures detected.",
+        "trace_id": "a3acc6e9-77dd-42ea-8517-657f1a38bc41",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:32:13.655456",
+        "pid": 21539,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "0fe9be87-0662-40c8-a58f-40fb79a3b1c7",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:15.488973",
+        "pid": 23593,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "8ce8cc4b-fec2-4b95-8d8a-eaa1261de17e",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:16.978031",
+        "pid": 25239,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "34d0f626-615e-4571-9892-25a11db37fe6",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:18.474775",
+        "pid": 31378,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "8976c4a9-0c62-4477-8406-c9365386e0da",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:19.967343",
+        "pid": 45357,
+        "level": "CRITICAL",
+        "component": "BACKEND_SYSTEMS",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "f4d68842-67e2-4ca5-8e65-2dc7c0a4335c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:21.474407",
+        "pid": 77917,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "638b59fe-8d2c-4681-80a8-c7f0ea5359ba",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:22.899455",
+        "pid": 83137,
+        "level": "ERROR",
+        "component": "AuthenticationService",
+        "message": "Detected data breaches due to weak authentication mechanisms.",
+        "trace_id": "5d9cfa54-c564-442e-b901-c3e79f821db0",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:32:26.969155",
+        "pid": 29252,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "c0549e20-1d2b-4435-9a6e-ac8218f676db",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:28.820828",
+        "pid": 82218,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "7eb405c7-d731-4f7a-800b-0031002891d8",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:30.284776",
+        "pid": 31942,
+        "level": "CRITICAL",
+        "component": "AuthenticationService",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts",
+        "trace_id": "c1e35272-6465-4a5f-82d7-d90978e89fe2",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:31.798611",
+        "pid": 97081,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "60de02c3-6225-4183-94e6-0b804d667e68",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:33.363918",
+        "pid": 55260,
+        "level": "ERROR",
+        "component": "BackendSystem",
+        "message": "Detected increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "36ba3c3c-8a32-4e82-b108-35bb5de52107",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:34.881410",
+        "pid": 64562,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "7abc8022-41c3-4ad1-8e75-78d6e48cdabe",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:36.364165",
+        "pid": 21266,
+        "level": "ERROR",
+        "component": "AuthenticationService",
+        "message": "Detected data breaches due to weak authentication mechanisms.",
+        "trace_id": "4221d21a-c07a-4e77-bc5a-f2a45703b36f",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:32:39.702870",
+        "pid": 80787,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "fdc7231e-6bd6-4749-82b9-7eff25c9976a",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:41.437973",
+        "pid": 18404,
+        "level": "INFO",
+        "component": "DB_QUERY_MONITORING",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "ec4e6a4c-2bf4-4eb6-8a66-7bcd6cfeddde",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:42.971093",
+        "pid": 38357,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Database query execution time exceeded the expected limit of 1 second.",
+        "trace_id": "939c181e-8113-421f-906b-3708979e7145",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:44.460176",
+        "pid": 78832,
+        "level": "INFO",
+        "component": "HTTP_CLIENT",
+        "message": "Connection timeout error detected for request to http://example.com/api/data",
+        "trace_id": "444e38de-4cb0-4ea3-b81d-8663ba8f9a89",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:46.019332",
+        "pid": 77664,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout error detected in the application layer.",
+        "trace_id": "7c84d133-cf39-44a0-861e-78da967a3a27",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:47.513890",
+        "pid": 10919,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "c8eb7268-595e-4d0e-974c-5333852f279f",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:48.968736",
+        "pid": 62067,
+        "level": "ERROR",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation and request failures detected.",
+        "trace_id": "1e8fbcdd-3c91-4123-8ea1-12aa11efb0d3",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:32:53.015722",
+        "pid": 58439,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "8789a9a1-5640-4e58-8b85-58aa6c59d3cd",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:54.849348",
+        "pid": 96644,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "6975a298-9a92-4a4c-9516-431006fd6852",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:56.394926",
+        "pid": 40965,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "6c6439ad-dfa3-4d7a-9370-fff766874854",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:57.883244",
+        "pid": 67442,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "2cc114bc-288f-4436-b183-66e09fe7dc5e",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:32:59.333858",
+        "pid": 39156,
+        "level": "ERROR",
+        "component": "BackendSystem",
+        "message": "Detected increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "d211fab2-02b7-408b-ae4c-66836caad4b0",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:00.796293",
+        "pid": 47836,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "c03b110f-4a7b-46ac-8055-326d7ec8f360",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:02.266657",
+        "pid": 45220,
+        "level": "CRITICAL",
+        "component": "AUTHENTICATION_SERVICE",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "4e4bfa66-6be2-48c2-90ab-df0ccb437364",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:33:05.609952",
+        "pid": 74612,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "91e62654-31e1-49eb-9c72-200f79ecde42",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:07.366617",
+        "pid": 79654,
+        "level": "INFO",
+        "component": "DB_QUERY_MONITORING",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "f11da851-cc71-4e61-bd01-ada355ef648d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:08.786480",
+        "pid": 22088,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Database query execution time is increasing by 20%.",
+        "trace_id": "4cdbb759-c34d-4930-8d93-b370301851e6",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:10.243631",
+        "pid": 96307,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error detected in the application layer.",
+        "trace_id": "ade1f564-3ae3-4675-852c-fa17addce2ad",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:11.694321",
+        "pid": 63590,
+        "level": "CRITICAL",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while attempting to connect to the database.",
+        "trace_id": "7dd32719-a3b0-4439-a59d-1264fb26d105",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:13.134698",
+        "pid": 44935,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "6129a955-7115-4e4f-8acb-c25364e8838d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:14.667284",
+        "pid": 21377,
+        "level": "ERROR",
+        "component": "HTTP_SERVER",
+        "message": "Request failed due to service degradation, potential downtime in the backend system.",
+        "trace_id": "224d9c32-5d72-4f38-9a2d-f88a91c29914",
+        "error_code": 503
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:33:18.055931",
+        "pid": 97229,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "bf02ac8b-925a-4e96-8ae6-648df1a4b89d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:19.798460",
+        "pid": 15653,
+        "level": "INFO",
+        "component": "DB_QUERY_MONITORING",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "5f2c8d30-0bf7-4250-af9d-7d0719b63daf",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:21.243039",
+        "pid": 26591,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Increasing response times in database queries due to high load.",
+        "trace_id": "16689120-7e79-45a4-bfa7-34e5c77488ed",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:22.698254",
+        "pid": 61528,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "a6ea48a7-f701-4a4e-bec7-17055bdbf57c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:24.135439",
+        "pid": 88496,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout error detected in the application layer.",
+        "trace_id": "c2b3058f-f458-4ec7-8fa5-28b20e2f9fe1",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:25.638941",
+        "pid": 71904,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "ec910a57-c698-4e1a-86e5-5437cd01fdb4",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:27.068240",
+        "pid": 23211,
+        "level": "CRITICAL",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation detected due to request failures.",
+        "trace_id": "9ed23756-3ae7-4309-8167-47ce57a19575",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:33:30.280273",
+        "pid": 97726,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "19f96708-8247-4792-92b7-1af7c32f466a",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:32.080709",
+        "pid": 10939,
+        "level": "INFO",
+        "component": "DB_QUERY_MONITORING",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "ef126d6e-5add-4845-884b-4df5553f8e97",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:33.585614",
+        "pid": 46744,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Increasing response times in database queries are observed.",
+        "trace_id": "0044df80-a570-40b5-a51e-f9892aa54e8e",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:35.095188",
+        "pid": 46829,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while establishing a connection to the server.",
+        "trace_id": "31293744-deff-4f1b-9d85-c517e40bd74b",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:36.534972",
+        "pid": 88580,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout error detected in the application layer.",
+        "trace_id": "99e67a03-8f55-43c5-b149-d2a8a62cfd2d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:37.974131",
+        "pid": 35170,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "b0541f2e-ab29-4a34-b7eb-51a36f0e4cfd",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:39.463819",
+        "pid": 82562,
+        "level": "ERROR",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation and request failures detected.",
+        "trace_id": "2a22076d-e009-4deb-9878-a678a0a3891f",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:33:43.465520",
+        "pid": 81896,
+        "level": "WARNING",
+        "component": "GarbageCollectionMonitor",
+        "message": "Increased memory usage due to non-released objects causing garbage collection pauses and full GC events that can lead to application unresponsiveness.",
+        "trace_id": "615c3e58-b25f-4a6c-ae1b-c9eec7b9c3d9",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:45.383885",
+        "pid": 64451,
+        "level": "INFO",
+        "component": "database_queries",
+        "message": "Increasing response times in database queries detected, investigating further.",
+        "trace_id": "8fcbc866-01d8-41d9-a1a4-77b939b2f926",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:46.854193",
+        "pid": 88367,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Increasing response times in database queries due to high load.",
+        "trace_id": "9199b968-a065-4a42-a675-d9e76050e0b1",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:48.383908",
+        "pid": 46598,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "929a5940-47c1-4083-a444-66fac4149c3c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:49.854433",
+        "pid": 84101,
+        "level": "CRITICAL",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while attempting to connect to the database.",
+        "trace_id": "4c6069f0-18fa-45a3-add1-b3a79d71b2a2",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:51.293209",
+        "pid": 69491,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "6141b3bb-5d00-4360-bf5d-8b247726db7f",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:52.748153",
+        "pid": 92254,
+        "level": "CRITICAL",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation detected due to request failures.",
+        "trace_id": "efabdd09-483e-4941-b10d-6daec755f49a",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:33:56.705900",
+        "pid": 45102,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "ac93ea9c-bbb4-4d61-95a2-36d77ca50b38",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:33:58.529065",
+        "pid": 91679,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "ae2b569c-f784-4844-86b3-2fd14c5052a6",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:00.029782",
+        "pid": 47192,
+        "level": "CRITICAL",
+        "component": "AUTH_SERVICE",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts",
+        "trace_id": "598be49b-9726-4526-8daf-26e312266cf6",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:01.535498",
+        "pid": 97310,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "09e0bd4f-2a06-498f-85e2-a5823d534f12",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:03.093535",
+        "pid": 46773,
+        "level": "ERROR",
+        "component": "WEB_SERVER",
+        "message": "Detected increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "c54228c3-f102-4121-8ef1-254961daf991",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:04.560419",
+        "pid": 57777,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "b9aac955-c807-4e64-8abe-eda987256af2",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:06.007560",
+        "pid": 43326,
+        "level": "CRITICAL",
+        "component": "AUTHENTICATION_SERVICE",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "70ac9ad2-c77e-4889-9f93-5313698f7e26",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:34:09.384032",
+        "pid": 87006,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "68279685-7739-4494-a558-74e6f2f696a7",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:11.179054",
+        "pid": 82435,
+        "level": "INFO",
+        "component": "database_query_performance",
+        "message": "Increasing response times in database queries.",
+        "trace_id": "ec4b214b-546d-4ed0-b276-cb738ddadcd8",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:12.582932",
+        "pid": 20217,
+        "level": "CRITICAL",
+        "component": "DATABASE_QUERY_SERVICE",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "52af54b3-7cc6-478b-a3a0-d2eb53f4e1d9",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:14.027202",
+        "pid": 17345,
+        "level": "INFO",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout error occurred while establishing a connection to the database.",
+        "trace_id": "782e179b-4f86-4179-89d5-2bebac9348a3",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:15.490008",
+        "pid": 76523,
+        "level": "CRITICAL",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while attempting to connect to the database.",
+        "trace_id": "8ba1aa56-9623-47c7-b762-6577ca1079a4",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:16.940456",
+        "pid": 22260,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "1d72cb1f-468e-4076-8e94-ceabd4fc2de5",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:18.493826",
+        "pid": 84011,
+        "level": "CRITICAL",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation detected due to request failures.",
+        "trace_id": "cf9ba3c4-6b9e-4a8a-9c2c-908ebdc5c4f6",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:34:21.732244",
+        "pid": 96420,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "8e4df701-1f05-4db2-8765-8ba60dd191e4",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:23.504298",
+        "pid": 47075,
+        "level": "INFO",
+        "component": "database_queries",
+        "message": "Increasing response times in database queries detected, investigating further.",
+        "trace_id": "145f7d6b-d9c4-485e-83f1-8f2c7cbc0b69",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:24.968693",
+        "pid": 59193,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Increasing response times in database queries due to high load.",
+        "trace_id": "f628413e-566b-48c0-a5d5-114f9e8d235b",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:26.446415",
+        "pid": 77351,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "e02eff70-f548-427c-981b-eeea97bae314",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:27.937995",
+        "pid": 99818,
+        "level": "CRITICAL",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while attempting to connect to the database.",
+        "trace_id": "9bda6190-8bb5-4117-97dc-8499df964eac",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:29.464317",
+        "pid": 88853,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to reach the target server.",
+        "trace_id": "2c0d2120-3ed0-47f0-b85d-0e9e707fb5b4",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:31.000823",
+        "pid": 73890,
+        "level": "ERROR",
+        "component": "HTTP_SERVER",
+        "message": "Request failed due to service degradation, potential downtime in the backend system.",
+        "trace_id": "b0ab5995-5780-47ad-b46d-12d692742e8d",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:34:35.079382",
+        "pid": 60135,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "7ee60410-f684-4e68-bc84-7fab26cc0496",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:36.904027",
+        "pid": 30709,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "fbbb86ff-fe5b-4f02-a1df-f67373af0ede",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:38.367192",
+        "pid": 34992,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "0cbb6de4-a90e-4d8c-bc08-85ca772df84d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:39.853113",
+        "pid": 61907,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "eb29110d-946f-4bad-a513-a92228d6ed1d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:41.367212",
+        "pid": 13900,
+        "level": "CRITICAL",
+        "component": "BACKEND_SYSTEMS",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "1f4a6985-e84f-4daa-be48-43441e6b8a7d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:42.854418",
+        "pid": 77054,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "b5710072-85ec-4add-a9fe-38f0a2458e90",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:44.270528",
+        "pid": 23018,
+        "level": "CRITICAL",
+        "component": "AUTHENTICATION_SERVICE",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "708df250-185b-4531-9e24-8e495e9b489d",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:34:48.204884",
+        "pid": 63507,
+        "level": "WARNING",
+        "component": "API_RATE_LIMITER",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "afbe28fa-f5e8-4128-af3f-cd8a1ed66e88",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:50.024881",
+        "pid": 76779,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "b4228fae-a8fc-42f9-b8b1-89d8b192af27",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:51.557805",
+        "pid": 52498,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "487d81f0-eb3d-49cb-b84b-aac5120ecace",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:52.995875",
+        "pid": 98782,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "ef00c3b8-c72d-4dc5-87e4-2938417994e1",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:54.535418",
+        "pid": 91070,
+        "level": "ERROR",
+        "component": "BackendSystem",
+        "message": "Detected increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "c032d0f7-ec0f-4f0d-bd8a-d5fc6766ffe8",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:55.984013",
+        "pid": 79338,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "5cb57fc9-d87e-45f5-834b-3ac1c003536a",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:34:57.425083",
+        "pid": 60506,
+        "level": "ERROR",
+        "component": "AuthenticationService",
+        "message": "Detected data breaches due to weak authentication mechanisms.",
+        "trace_id": "831063f0-92c4-4900-b5c1-bbc57bc3ecac",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:35:01.232315",
+        "pid": 37072,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "9a4a8d92-0e26-4402-b93f-1d2d3c4ff999",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:03.090595",
+        "pid": 59600,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "866c0f2d-c76f-4962-8364-4f49a93e9b8f",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:04.594288",
+        "pid": 42290,
+        "level": "CRITICAL",
+        "component": "AUTH_SERVICE",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts",
+        "trace_id": "c28b47fe-cf70-44ce-8199-c375a961f2bd",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:06.093050",
+        "pid": 61560,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "208d11d6-9735-495a-b575-08f975792cb8",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:07.640464",
+        "pid": 50879,
+        "level": "ERROR",
+        "component": "BackendSystem",
+        "message": "Detected increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "5b2419a1-02a0-492e-b4d0-9195e490363e",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:09.122940",
+        "pid": 41569,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "ad05c59c-282b-45fd-a1e5-261c87cf4e86",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:10.538372",
+        "pid": 71649,
+        "level": "CRITICAL",
+        "component": "AUTHENTICATION_SERVICE",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "fa85c5d6-7056-4392-93b2-eaec9c3b8b41",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:35:14.531392",
+        "pid": 72436,
+        "level": "WARNING",
+        "component": "GarbageCollectionMonitor",
+        "message": "Increased memory usage due to non-released objects causing garbage collection pauses and full GC events that can lead to application unresponsiveness.",
+        "trace_id": "1f68c253-6fe6-45ac-bf8e-fc152e87320d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:16.428046",
+        "pid": 33948,
+        "level": "INFO",
+        "component": "DB_QUERY_MONITORING",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "e21f8cfe-3ed6-4e6a-b6c5-52d0ac6366dd",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:17.868148",
+        "pid": 64024,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Database query execution time is increasing by 20%.",
+        "trace_id": "eb3f24cf-ef81-48c0-9fa3-ef4969c4a67e",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:19.322065",
+        "pid": 94429,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while establishing a connection to the server.",
+        "trace_id": "818aada4-6098-4e79-8a61-12ac75efe814",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:20.816147",
+        "pid": 92682,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while trying to establish a connection with the server.",
+        "trace_id": "540bbcc3-b69a-42d0-a72f-ea96be47f947",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:22.258379",
+        "pid": 82741,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "f64ddcae-4b3b-4f29-b66d-92ea4b338b90",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:23.673188",
+        "pid": 63734,
+        "level": "CRITICAL",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation detected due to request failures.",
+        "trace_id": "2f97e839-d3e0-41fe-a5c1-3b91f2515adc",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:35:26.979488",
+        "pid": 13628,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "a5f51427-54ca-4a1f-a674-dae708b17e6e",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:28.704074",
+        "pid": 96839,
+        "level": "INFO",
+        "component": "DB_QUERY_MONITORING",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "187129f7-a410-4c1a-b1f5-fce2a484ff5d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:30.063762",
+        "pid": 23579,
+        "level": "CRITICAL",
+        "component": "DATABASE_QUERY_SERVICE",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "48a50ef4-35c1-41f9-b27f-7aea4dee97f1",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:31.489623",
+        "pid": 34573,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "650942ff-ca87-43fa-b4fe-3b6a1806881b",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:32.976276",
+        "pid": 41853,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while trying to establish a connection with the server.",
+        "trace_id": "2073faac-1b59-4bd9-a2f9-11305c960e80",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:34.435522",
+        "pid": 61707,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "53617568-8e31-4857-9624-b4db8a31fb47",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:36.043411",
+        "pid": 78795,
+        "level": "CRITICAL",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation detected due to request failures.",
+        "trace_id": "423d2a34-a849-4e92-8b15-e2a718724f8f",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:35:40.045621",
+        "pid": 40281,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "29d1ec8f-17c1-46a2-b7d8-4e9cb7c19334",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:41.884709",
+        "pid": 77972,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "81c8ea16-a0e7-4ee4-a828-7a493caaee9b",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:43.358228",
+        "pid": 20178,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "0a2a782c-608c-4fbd-ac61-a36a9eaf033d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:44.833774",
+        "pid": 30643,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "7b9cba0a-285d-4651-8373-b9f301050537",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:46.319208",
+        "pid": 71834,
+        "level": "CRITICAL",
+        "component": "BACKEND_SYSTEMS",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "d14a1d59-a45e-477a-b04f-09907f89acb0",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:47.807988",
+        "pid": 77930,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "a12e305a-84c4-4265-a67a-68990fd7181f",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:49.351001",
+        "pid": 48601,
+        "level": "ERROR",
+        "component": "AuthenticationService",
+        "message": "Detected data breaches due to weak authentication mechanisms.",
+        "trace_id": "c624cec4-b7df-45ae-9a20-3e01bbf6d70b",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:35:52.694056",
+        "pid": 70447,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "3a391c71-ccf4-4d73-ac16-261eed776363",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:54.440216",
+        "pid": 36837,
+        "level": "INFO",
+        "component": "DB_QUERY_MONITORING",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "20e8971b-b57f-4225-9ff5-d800893739a3",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:55.908138",
+        "pid": 24141,
+        "level": "ERROR",
+        "component": "DB_QUERY_SERVICE",
+        "message": "Database query execution time is increasing by 20%.",
+        "trace_id": "b9e46443-d50d-49d4-affd-05cd441c6e6b",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:57.351047",
+        "pid": 84882,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "e0056a3d-0c44-4d9e-b1e5-5657c05f3304",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:35:58.848062",
+        "pid": 51614,
+        "level": "CRITICAL",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while attempting to connect to the database.",
+        "trace_id": "477ad508-b15f-422f-bf2a-ff7515997152",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:00.311791",
+        "pid": 56325,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "17dace78-faae-4f32-977d-f2bdb3bfb872",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:01.728574",
+        "pid": 69334,
+        "level": "CRITICAL",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation detected due to request failures.",
+        "trace_id": "54db9d71-78a8-4996-85db-faf883b9c342",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:36:05.733119",
+        "pid": 83053,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "f265e731-1388-4361-bf95-0b6155b9949a",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:07.603680",
+        "pid": 21817,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "bf45c373-2448-46e4-91ba-055448bfa3af",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:09.232970",
+        "pid": 76476,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "f8f54246-f967-4bfe-9abd-6b6f7d23dc71",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:10.719514",
+        "pid": 11597,
+        "level": "INFO",
+        "component": "BackendSystem",
+        "message": "Increased load on backend systems due to higher volume of malicious requests",
+        "trace_id": "8b094b84-6f3f-453e-a369-63fa46e4d8f7",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:12.233640",
+        "pid": 24180,
+        "level": "ERROR",
+        "component": "BackendSystem",
+        "message": "Detected increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "c937014f-e83c-4ef0-a0be-cf8d88bc316c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:13.705517",
+        "pid": 83054,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "9d919b31-06f1-455b-9eb5-bd9da3be75ca",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:15.137034",
+        "pid": 82285,
+        "level": "ERROR",
+        "component": "AuthenticationService",
+        "message": "Detected data breaches due to weak authentication mechanisms.",
+        "trace_id": "0d85a022-79c6-431e-b5b8-fcebbda3a28b",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:36:19.087038",
+        "pid": 19564,
+        "level": "WARNING",
+        "component": "GarbageCollectionMonitor",
+        "message": "Increased memory usage due to non-released objects causing garbage collection pauses and full GC events that can lead to application unresponsiveness.",
+        "trace_id": "125fb5b5-81f5-4b90-9bf1-9cfcaae0f563",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:21.005307",
+        "pid": 55388,
+        "level": "INFO",
+        "component": "database_queries",
+        "message": "Increasing response times in database queries detected, investigating further.",
+        "trace_id": "734798ea-54e6-4e50-9250-77c1c8ecbf86",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:22.466965",
+        "pid": 38329,
+        "level": "CRITICAL",
+        "component": "DATABASE_QUERY_SERVICE",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "b4e95731-c85d-499b-9466-144bc1f136d4",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:23.918144",
+        "pid": 28103,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while attempting to establish a connection with the server.",
+        "trace_id": "daab07c2-35b8-4800-b4a0-60489b94fdbe",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:25.422122",
+        "pid": 59052,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout occurred while trying to establish a connection with the server.",
+        "trace_id": "52e53be2-d076-4538-8ec8-7f4d6cef0c9b",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:27.074228",
+        "pid": 85188,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "a567bfd9-6658-4a20-8219-04bf755b1ecb",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:28.530348",
+        "pid": 84182,
+        "level": "ERROR",
+        "component": "HTTP_SERVER",
+        "message": "Service degradation and request failures detected.",
+        "trace_id": "8cd89156-e37c-450e-a717-17247b28ab15",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:36:32.527567",
+        "pid": 68443,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "3244ed2c-9a7f-485b-bac6-bfb39a77c3f0",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:34.367362",
+        "pid": 43464,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "e762ca87-884b-4457-ae2b-62f1623c877f",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:35.879136",
+        "pid": 93695,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "938ff5d0-9b88-4ad2-8957-01164d317577",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:37.426987",
+        "pid": 52885,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "e5dee93d-66eb-4b19-8c0c-e601d652845c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:38.887939",
+        "pid": 56742,
+        "level": "ERROR",
+        "component": "BackendSystem",
+        "message": "Detected increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "ea68afc3-ff92-4d33-b8b7-5c4bd5143246",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:40.364681",
+        "pid": 13828,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "b0c441a9-bdd1-4a3d-8db3-59cdafc984ff",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:41.780248",
+        "pid": 40961,
+        "level": "ERROR",
+        "component": "AuthenticationService",
+        "message": "Detected data breaches due to weak authentication mechanisms.",
+        "trace_id": "66f042b7-7b83-4ad2-ba06-449b3bfd9874",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:36:45.673840",
+        "pid": 77591,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "783838e1-7c36-49f5-920e-1ac34dfa5bb2",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:47.520150",
+        "pid": 75933,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "1ccc67ec-b86e-4574-8915-c7627489593b",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:49.007953",
+        "pid": 86895,
+        "level": "CRITICAL",
+        "component": "AUTH_SERVICE",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts",
+        "trace_id": "2fa86034-f20f-4a49-8519-e35ae722f18c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:50.516315",
+        "pid": 15556,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "11e4c3cd-5c85-47ee-aafe-18adb868f112",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:51.966712",
+        "pid": 45432,
+        "level": "CRITICAL",
+        "component": "BACKEND_SYSTEMS",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "a6198a17-7f84-4f53-8ec3-ffedd0038191",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:53.455899",
+        "pid": 78344,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "62ddc510-2a74-46e8-b820-8a429438f5be",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:36:54.885383",
+        "pid": 35805,
+        "level": "CRITICAL",
+        "component": "AUTHENTICATION_SERVICE",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "96b2c617-69f8-4e3b-976a-a7da1f19e9c7",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:36:58.809658",
+        "pid": 54697,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "f5d972d9-68bf-4163-8563-4575c8f4770b",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:00.640970",
+        "pid": 23936,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "342dce30-e920-412b-88bd-3357800f610a",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:02.151166",
+        "pid": 22062,
+        "level": "CRITICAL",
+        "component": "AuthenticationService",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts",
+        "trace_id": "bb7483b3-2428-4927-bdf6-3965b1164fb4",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:03.697870",
+        "pid": 75684,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "b9fc95fb-2ffd-4641-8ce5-cb1ecaebe420",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:05.142385",
+        "pid": 34663,
+        "level": "ERROR",
+        "component": "BackendSystem",
+        "message": "Detected increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "7939aa4d-d79a-43b3-a8b8-a7150e866186",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:06.618288",
+        "pid": 77819,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "24320641-c775-4640-ad6f-75e5650feef7",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:08.111073",
+        "pid": 57911,
+        "level": "ERROR",
+        "component": "AuthenticationService",
+        "message": "Detected data breaches due to weak authentication mechanisms.",
+        "trace_id": "12a9eb3c-0eaf-4046-9458-2820691232f7",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:37:12.005378",
+        "pid": 20446,
+        "level": "WARNING",
+        "component": "API_RATE_LIMITER",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "d5f2fcde-f941-49aa-b1ef-0302400db97c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:13.834192",
+        "pid": 46068,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "2769dcac-bf37-4799-b678-6712156a63d9",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:15.395891",
+        "pid": 43342,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "ef8e94ca-e21e-4805-bc96-d4c22277e549",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:16.874322",
+        "pid": 79856,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "9c946cbe-65d3-448e-9798-2e49cb280ccb",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:18.340369",
+        "pid": 98204,
+        "level": "CRITICAL",
+        "component": "BACKEND_SYSTEMS",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "38e89dd3-e89a-4a50-95ee-f4f21d5e2ec6",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:19.825868",
+        "pid": 33004,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "133a4b25-dede-4ee3-8d71-8dc8f23999f8",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:21.249876",
+        "pid": 63044,
+        "level": "ERROR",
+        "component": "AuthenticationService",
+        "message": "Detected data breaches due to weak authentication mechanisms.",
+        "trace_id": "65b10520-17fc-4546-9ca4-d6704ced84f3",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:37:25.204836",
+        "pid": 88344,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "b9deece6-a982-4401-8962-51032d351fe7",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:27.020009",
+        "pid": 34552,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "7915e6e9-69a8-4107-b9d5-d4163aa1f739",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:28.520497",
+        "pid": 81020,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "d89f0672-9ab0-4e22-9adc-437f0965fe0f",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:29.998737",
+        "pid": 16556,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "28529f37-d3af-416c-93c1-95968f2b8fa9",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:31.474519",
+        "pid": 10887,
+        "level": "CRITICAL",
+        "component": "BACKEND_SYSTEMS",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "fb6cd49c-7939-49d8-a0c0-6c69dcf6ebba",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:32.948249",
+        "pid": 70593,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "ad9be0c0-ed33-41c7-889a-e46515704b8b",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:34.350088",
+        "pid": 35959,
+        "level": "ERROR",
+        "component": "AuthenticationService",
+        "message": "Detected data breaches due to weak authentication mechanisms.",
+        "trace_id": "02555962-2319-4f03-ac2a-7458d08f33e8",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:37:38.269961",
+        "pid": 44060,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "b5cbf6a3-1a75-4c91-9ca5-d4d730953f1c",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:40.103549",
+        "pid": 61859,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "73c0a1e3-e915-4a37-b406-7d1b70d3fb53",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:41.685750",
+        "pid": 88470,
+        "level": "CRITICAL",
+        "component": "AUTH_SERVICE",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts",
+        "trace_id": "d069dbff-29a8-460a-b919-27f2bc5c4ab2",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:43.170063",
+        "pid": 58888,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "25901cb1-e58e-464f-b7a4-af3992e6c9ab",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:44.634838",
+        "pid": 34935,
+        "level": "ERROR",
+        "component": "BackendSystem",
+        "message": "Detected increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "37b8a451-7cbc-4a80-b16f-bed6896d0fa8",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:46.142179",
+        "pid": 43467,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "334df155-e0be-4531-a09c-96ca3038c194",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:47.555298",
+        "pid": 92671,
+        "level": "CRITICAL",
+        "component": "AUTHENTICATION_SERVICE",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "fc8a7b3b-45d1-496d-98ad-6500cb2b4abf",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:37:51.450307",
+        "pid": 18609,
+        "level": "WARNING",
+        "component": "API_RATE_LIMITER",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "d0bd8518-bcd3-4984-ad1f-0ee226e5b4cf",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:53.257214",
+        "pid": 34865,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "2d55d2d9-b0fc-4e3c-8a28-9f1010b08d92",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:54.714365",
+        "pid": 67487,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "ac19d3bd-6d80-46a1-84be-fd58813d9624",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:56.168106",
+        "pid": 27271,
+        "level": "INFO",
+        "component": "BackendSystem",
+        "message": "Increased load on backend systems due to higher volume of malicious requests",
+        "trace_id": "79cbda7d-e42d-45c2-aaeb-cf6206e7b7d8",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:57.581550",
+        "pid": 81029,
+        "level": "ERROR",
+        "component": "BackendSystem",
+        "message": "Detected increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "43c73b3b-f2fb-4351-b0f1-321de4ebc759",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:37:59.033116",
+        "pid": 80396,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "cfeb3b47-0c8a-4594-b85d-2057e7ae4479",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:00.437335",
+        "pid": 19502,
+        "level": "ERROR",
+        "component": "AuthenticationService",
+        "message": "Detected data breaches due to weak authentication mechanisms.",
+        "trace_id": "3f068373-27f5-47a4-b9a1-60a5251dba9d",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:38:04.271942",
+        "pid": 13200,
+        "level": "WARNING",
+        "component": "API_GATEWAY",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "c3d8fb3a-1480-4851-99ff-c1a7d7ba439d",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:06.090705",
+        "pid": 14321,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "3a19cf63-366b-45e4-9eaf-57c4f0f37ccc",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:07.656470",
+        "pid": 30075,
+        "level": "ERROR",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "bde6cfd9-f093-46dc-8933-f45457135892",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:09.105685",
+        "pid": 34502,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "55067dea-82ff-468e-9044-63091e593d14",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:10.554744",
+        "pid": 48490,
+        "level": "ERROR",
+        "component": "BackendSystem",
+        "message": "Detected increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "9592bfb3-7a78-4b7f-835a-7b4ebf67ca7f",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:12.009757",
+        "pid": 33890,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "6da8b56f-0b9d-41b3-8e1d-f2745a4aaf95",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:13.413312",
+        "pid": 94003,
+        "level": "ERROR",
+        "component": "AuthenticationService",
+        "message": "Detected data breaches due to weak authentication mechanisms.",
+        "trace_id": "e967068b-e600-4d7a-ae4b-371806ddcd3b",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:38:16.698447",
+        "pid": 30871,
+        "level": "WARNING",
+        "component": "DB_CONNECTION_POOL",
+        "message": "Database connection pool exhausted due to connection leaks.",
+        "trace_id": "303d2981-33c1-4204-8671-e3c510a6c025",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:18.482873",
+        "pid": 85100,
+        "level": "INFO",
+        "component": "DATABASE_QUERY_SERVICE",
+        "message": "Increasing response times in database queries, likely due to increased load or slow query execution.",
+        "trace_id": "15864708-62de-46e6-b4e8-59e40092b1d7",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:19.955526",
+        "pid": 53073,
+        "level": "CRITICAL",
+        "component": "DATABASE_QUERY_SERVICE",
+        "message": "Increasing response times in database queries detected.",
+        "trace_id": "8d6b93f2-f73f-46f2-9c3e-4d5b4150f0da",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:21.374006",
+        "pid": 20876,
+        "level": "INFO",
+        "component": "ApplicationLayer",
+        "message": "Connection timeout error occurred while establishing a connection to the server.",
+        "trace_id": "e4df52ef-aec1-4296-b504-98450f0b28e9",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:22.773029",
+        "pid": 99278,
+        "level": "ERROR",
+        "component": "APPLICATION_LAYER",
+        "message": "Connection timeout error detected in the application layer.",
+        "trace_id": "7b0e3a1a-795e-4f62-bda1-d4920f677887",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:24.154503",
+        "pid": 49694,
+        "level": "INFO",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected, requests failing to respond.",
+        "trace_id": "1ffd6bcc-8db6-41e8-987a-1daee2bfd294",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:25.710974",
+        "pid": 61863,
+        "level": "CRITICAL",
+        "component": "ServiceHealthMonitor",
+        "message": "Service degradation detected due to multiple request failures.",
+        "trace_id": "affeb48a-ca86-40ea-a25d-aca363ed6333",
+        "error_code": null
+      }
+    ]
+  },
+  {
+    "log_chain": [
+      {
+        "timestamp": "2025-01-22 20:38:29.592525",
+        "pid": 13582,
+        "level": "WARNING",
+        "component": "API_RATE_LIMITER",
+        "message": "Insufficient rate limiting for API requests leading to brute force attacks and unauthorized access attempts.",
+        "trace_id": "dc5c931b-89f6-4cae-afce-d48e5ea0ffdf",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:31.373552",
+        "pid": 83561,
+        "level": "INFO",
+        "component": "SESSION_MANAGER",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts.",
+        "trace_id": "6167a248-7055-44d3-8ffb-91d088da88d0",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:32.833613",
+        "pid": 83205,
+        "level": "CRITICAL",
+        "component": "AUTH_SERVICE",
+        "message": "Exhaustion of session tokens and login attempts, causing user account lockouts",
+        "trace_id": "14ba31ad-1a95-4854-bb45-55e5d099992a",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:34.304045",
+        "pid": 92215,
+        "level": "INFO",
+        "component": "backend_systems",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "2b475733-4e02-43aa-9b18-92f2efc88156",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:35.759314",
+        "pid": 40411,
+        "level": "CRITICAL",
+        "component": "BACKEND_SYSTEMS",
+        "message": "Increased load on backend systems due to higher volume of malicious requests.",
+        "trace_id": "796332fb-469a-4987-afbf-12fe7270d144",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:37.220834",
+        "pid": 85436,
+        "level": "INFO",
+        "component": "AuthenticationService",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "541ed012-a5aa-4a7f-b85c-70bad6585bd4",
+        "error_code": null
+      },
+      {
+        "timestamp": "2025-01-22 20:38:38.622227",
+        "pid": 59650,
+        "level": "CRITICAL",
+        "component": "AUTHENTICATION_SERVICE",
+        "message": "Data breaches detected due to weak authentication mechanisms.",
+        "trace_id": "df256c3c-408b-4fae-a79d-f3e1d311e4dd",
+        "error_code": null
+      }
+    ]
+  }
+]
