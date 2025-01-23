@@ -1,1 +1,4 @@
 env
+data/chroma
+data/db
+data/ollama
