@@ -1,0 +1,2 @@
+2023-10-12T14:23:00Z INFO [pid=1234] [component=auth_service] [user=jdoe] [ip=192.168.1.10] [group=admin] [trace=abc123] [request=req789] User login successful
+2023-10-12T14:25:30Z ERROR [pid=1234] [component=database_service] [error=5001] [user=jdoe] [ip=192.168.1.10] [group=admin] [trace=abc123] [request=req790] Database connection lost
