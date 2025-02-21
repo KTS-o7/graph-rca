@@ -44,14 +44,3 @@ class EmbeddingCreator:
         norm_b = sum(b**2 for b in embedding2) ** 0.5
         return dot_product / (norm_a * norm_b)
     
-    def create_embedding_from_file(self, file_path: str, model_name: str) -> list:
-        # this will create the embedding of the text from the file
-        pass
-    
-    def create_similarity(self, text1: str, text2: str, model_name: str) -> float:
-        # this will create the similarity between two texts
-        pass
-    
-    def create_similarity_from_file(self, file_path1: str, file_path2: str, model_name: str) -> float:
-        # this will create the similarity between two texts from the file
-        pass

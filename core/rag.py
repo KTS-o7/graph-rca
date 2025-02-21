@@ -61,10 +61,13 @@ class RAG_Engine:
                 
             except Exception as e:
                 print(f"Vector search error: {str(e)}")
-                results = [Document(text="Error searching documentation", metadata={"source": "error"})]
+                results = [Document(
+                    page_content="Error searching documentation",
+                    metadata={"source": "error"}
+                )]
             
             # Format context for prompt
-            doc_context = "\n".join([doc.text for doc in results])
+            doc_context = "\n".join([doc.page_content for doc in results])
             print(f"\nDebug - Formatted doc context: {doc_context[:200]}...")
             
             try:

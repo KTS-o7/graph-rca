@@ -72,18 +72,23 @@ class LogParser:
             raise RuntimeError(f"Failed to extract log info: {str(e)}")
         
     def parse_log_from_file(self, log_file: str) -> LogChain:
-        """Parse log entries from a log file. Must accept only .txt, .log, .out, .err files"""
+        """Parse log entries from a log file."""
         try:
-            # Remove file extension check since Streamlit already filters uploads
-            # if not log_file.endswith((".txt",".log",".out",".err")):
-            #     raise ValueError("Only .txt, .log, .out, .err files are supported")
+            # Temporary extension check for testing
+            if not log_file.endswith((".txt", ".log", ".out", ".err")):
+                raise ValueError("Unsupported file type")
             
-            with open(log_file,"r") as f:
+            with open(log_file, "r") as f:
                 log_data = f.read()
+            
+            if not log_data.strip():
+                raise ValueError("Empty log file")
+            
             return self.parse_log(log_data)
             
-        except FileNotFoundError:
-            raise FileNotFoundError(f"Log file not found: {log_file}")
+        except ValueError as e:
+            # Re-raise validation errors as-is
+            raise e
         except Exception as e:
             raise RuntimeError(f"Failed to parse log file: {str(e)}")
     
