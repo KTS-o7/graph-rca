@@ -47,7 +47,7 @@ class LogParser:
                 format="json"
             )
 
-            print(f"Raw LLM response: {response.response}")  # Debug JSON output
+            #print(f"Raw LLM response: {response.response}")  # Debug JSON output
             
             # Handle empty responses
             if not response or not response.response.strip():
@@ -110,7 +110,7 @@ class LogParser:
                     
                 try:
                     print(f"\n--- Processing line {idx+1} ---")
-                    print(f"Original log: {log}")
+                    #print(f"Original log: {log}")
                     entry = self.extract_log_info_by_llm(log)
                     print(f"Parsed entry: {entry.model_dump_json(indent=2)}")
                     # Store even partial entries for analysis
@@ -128,21 +128,3 @@ class LogParser:
         except Exception as e:
             raise RuntimeError(f"Failed to parse log data: {str(e)}")
 
-"""# Remove the test code at the bottom of the file and create a proper test
-def test_parser():
-    parser = LogParser()
-    test_logs = [
-        "2023-10-12T14:23:00Z INFO [pid=1234] [component=auth] User login successful",
-        "2023-10-12T14:25:30Z ERROR [error_code=500] Database connection failed",
-        "2023-10-12T14:26:45Z WARN [trace_id=abc123] High latency detected"
-    ]
-    
-    for log in test_logs:
-        try:
-            entry = parser.extract_log_info_by_llm(log)
-            print(f"Successfully parsed:\n{entry.model_dump_json(indent=2)}")
-        except Exception as e:
-            print(f"Failed to parse '{log}': {str(e)}")
-
-if __name__ == "__main__":
-    test_parser()"""

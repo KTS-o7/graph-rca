@@ -33,8 +33,8 @@ class RAG_Engine:
         """Generate solution using RAG with automatic query"""
         print("\n=== Starting Solution Generation ===")
         automated_query = f"Provide resolution steps for: {root_cause}"
-        print(f"Debug - Query: {automated_query}")
-        print(f"Debug - Root cause: {root_cause}")
+        #print(f"Debug - Query: {automated_query}")
+        #print(f"Debug - Root cause: {root_cause}")
         
         try:
             # Ensure context is a string
@@ -46,8 +46,8 @@ class RAG_Engine:
             else:
                 context_str = context
             
-            print(f"Debug - Context type after conversion: {type(context_str)}")
-            print(f"Debug - Context preview: {context_str[:100]}...")
+            #print(f"Debug - Context type after conversion: {type(context_str)}")
+            #print(f"Debug - Context preview: {context_str[:100]}...")
             
             # Search documentation using context embeddings
             try:
@@ -57,18 +57,15 @@ class RAG_Engine:
                     context=context_str,
                     top_k=5
                 )
-                print(f"Debug - Search results: {results}")
+                #print(f"Debug - Search results: {results}")
                 
             except Exception as e:
                 print(f"Vector search error: {str(e)}")
-                results = [Document(
-                    page_content="Error searching documentation",
-                    metadata={"source": "error"}
-                )]
+                results = [Document(text="Error searching documentation", metadata={"source": "error"})]
             
-            # Format context for prompt
-            doc_context = "\n".join([doc.page_content for doc in results])
-            print(f"\nDebug - Formatted doc context: {doc_context[:200]}...")
+            # Format context for prompt - Using doc.text since that's what our Document objects have
+            doc_context = "\n".join([doc.text for doc in results])
+            #print(f"\nDebug - Formatted doc context: {doc_context[:200]}...")
             
             try:
                 print("\n=== Starting LLM Generation ===")
@@ -143,7 +140,7 @@ Please be specific and actionable in your recommendations.""",
     
     def store_documentation(self, documents: List[str]) -> None:
         """Store documentation in ChromaDB"""
-        print("\n=== Storing Documentation ===")
+        #print("\n=== Storing Documentation ===")
         
         # Add validation for empty documents
         if not documents:
@@ -157,19 +154,19 @@ Please be specific and actionable in your recommendations.""",
             add_start_index=True,
         )
         
-        print(f"Original documents: {len(documents)} chunks")
+        #print(f"Original documents: {len(documents)} chunks")
         chunks = text_splitter.split_text("\n\n".join(documents))
-        print(f"Split into {len(chunks)} chunks")
+        #print(f"Split into {len(chunks)} chunks")
         
         # Validate chunks before embedding
         if not chunks:
             raise ValueError("No text chunks created after splitting")
         
-        print("Creating embeddings...")
+        #print("Creating embeddings...")
         embeddings = self.embedder.create_batch_embeddings(chunks)
-        print(f"Created {len(embeddings)} embeddings")
+        #print(f"Created {len(embeddings)} embeddings")
         
-        print("Storing in vector database...")
+        #print("Storing in vector database...")
         self.vector_db.add_documents(
             documents=chunks,
             embeddings=embeddings
@@ -177,4 +174,4 @@ Please be specific and actionable in your recommendations.""",
         
         # Verify storage
         collection = self.vector_db.get_collection()
-        print(f"Collection now contains {collection.count()} documents")
+        #print(f"Collection now contains {collection.count()} documents")
