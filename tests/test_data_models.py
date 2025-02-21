@@ -3,6 +3,8 @@ from models.context_data_models import Context
 from models.graph_data_models import DAG, DAGNode
 from models.parsing_data_models import LogEntry, LogChain, SystemInfo, UserInfo, TraceInfo
 from models.rag_response_data_models import SummaryResponse, SolutionQuery
+from pydantic import BaseModel
+from typing import Optional, Dict, Any
 
 # LogEntry Tests
 def test_log_entry_with_all_fields():
@@ -10,28 +12,35 @@ def test_log_entry_with_all_fields():
         timestamp="2023-01-01 10:00:00",
         message="Test message",
         level="INFO",
-        system_info=SystemInfo(pid=1234, component="test-component"),
-        user_info=UserInfo(username="test-user", ip_address="127.0.0.1", group="test-group"),
-        trace_info=TraceInfo(trace_id="abc-123", request_id="req-123")
+        pid="1234",
+        component="test-component",
+        error_code="500",
+        username="test-user",
+        ip_address="127.0.0.1",
+        group="test-group",
+        trace_id="abc-123",
+        request_id="req-123"
     )
-    assert log_entry.timestamp == "2023-01-01 10:00:00"
-    assert log_entry.system_info.pid == 1234
-    assert log_entry.user_info.group == "test-group"
-    assert log_entry.trace_info.trace_id == "abc-123"
+    assert log_entry.pid == "1234"
+    assert log_entry.username == "test-user"
+    assert log_entry.trace_id == "abc-123"
 
 def test_log_entry_minimal_fields():
     log_entry = LogEntry(
         timestamp="2023-01-01",
         message="test",
         level="INFO",
-        system_info=SystemInfo(pid=1234,component=None,error_code=None),
-        user_info=UserInfo(username="test",ip_address=None,group=None),
-        trace_info=TraceInfo(trace_id=None,request_id="req-123")
+        pid="",
+        component="",
+        error_code="",
+        username="",
+        ip_address="",
+        group="",
+        trace_id="",
+        request_id=""
     )
     assert log_entry.timestamp == "2023-01-01"
-    assert log_entry.system_info is not None
-    assert log_entry.user_info is not None
-    assert log_entry.trace_info is not None
+    assert log_entry.pid == ""
 
 # SystemInfo Tests
 def test_system_info_optional_fields():
@@ -111,16 +120,19 @@ def test_summary_response_with_empty_summary():
 # SolutionQuery Tests
 def test_solution_query_with_additional_info():
     query = SolutionQuery(
-        context=["Error occurred"],
+        context="Error occurred in system",
         query="How to fix?",
+        response="Try restarting the service",
         additional_info={"priority": "high"}
     )
+    assert query.context == "Error occurred in system"
     assert query.additional_info["priority"] == "high"
 
 def test_solution_query_without_additional_info():
     query = SolutionQuery(
-        context=["Error occurred"],
+        context="Error occurred",
         query="How to fix?",
-        additional_info=None
+        response="Check logs",
     )
+    assert query.context == "Error occurred"
     assert query.additional_info is None

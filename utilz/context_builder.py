@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field
 from typing import Optional
-from ..models.graph_data_models import DAGNode,DAG
-from ..models.context_data_models import Context
+from models.graph_data_models import DAGNode,DAG
+from models.context_data_models import Context
 
 class ContextBuilder:
     def __init__(self) -> None:

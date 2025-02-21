@@ -1,0 +1,89 @@
+# Flask Server Documentation
+
+## Overview
+The Flask server provides a RESTful API interface for the application. It handles HTTP requests, manages database connections, and serves as the backend for the web application.
+
+## Setup and Installation
+1. Install Flask and dependencies:
+   ```bash
+   pip install flask
+   pip install flask-cors
+   pip install python-dotenv
+   ```
+
+2. Environment Configuration:
+   - Create a `.env` file in the root directory
+   - Add required environment variables:
+     ```
+     FLASK_APP=frontend/app.py
+     FLASK_ENV=development
+     DATABASE_URL=your_database_connection_string
+     ```
+
+## API Endpoints
+
+### Health Check
+- **GET** `/health`
+  - Returns server and database health status
+  - Response: `{"status": "healthy", "database": "connected"}`
+
+### RAG Operations
+- **POST** `/api/query`
+  - Performs RAG-based query on documents
+  - Request body: `{"query": "your question here"}`
+  - Response: `{"answer": "generated response", "sources": ["source1", "source2"]}`
+
+### Database Operations
+- **GET** `/api/documents`
+  - Retrieves list of available documents
+  - Response: `{"documents": [{"id": 1, "title": "doc1"}, ...]}`
+
+## Error Handling
+The server implements standard HTTP error codes:
+- 400: Bad Request
+- 401: Unauthorized
+- 404: Not Found
+- 500: Internal Server Error
+
+## Testing
+Run tests using pytest:
+```bash
+pytest tests/
+```
+
+## Security Considerations
+- CORS is enabled for specified origins
+- API endpoints require authentication tokens
+- Input validation is implemented for all requests
+
+## Monitoring
+The server includes:
+- Request logging
+- Performance metrics
+- Database connection monitoring
+- Error tracking
+
+## Development Guidelines
+1. Follow PEP 8 style guide
+2. Write unit tests for new endpoints
+3. Update documentation for API changes
+4. Use type hints for function parameters
+
+## Deployment
+1. Set environment to production:
+   ```bash
+   export FLASK_ENV=production
+   ```
+2. Use gunicorn for production deployment:
+   ```bash
+   gunicorn -w 4 -b 0.0.0.0:8000 frontend.app:app
+   ```
+
+## Troubleshooting
+Common issues and solutions:
+1. Database connection errors:
+   - Verify DATABASE_URL in .env
+   - Check database service status
+2. CORS issues:
+   - Verify allowed origins configuration
+   - Check client request headers

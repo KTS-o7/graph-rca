@@ -1,0 +1,19 @@
+[2024-03-20 10:15:23,456] INFO in app: Flask application starting up
+[2024-03-20 10:15:23,789] INFO in werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+[2024-03-20 10:15:45,123] INFO in app: GET request received at /api/v1/documents
+[2024-03-20 10:15:45,234] DEBUG in database_handlers: Successfully connected to database
+[2024-03-20 10:15:45,345] INFO in app: Successfully retrieved 15 documents
+[2024-03-20 10:15:45,456] INFO in werkzeug: 127.0.0.1 - - [20/Mar/2024 10:15:45] "GET /api/v1/documents HTTP/1.1" 200 -
+[2024-03-20 10:16:12,789] WARNING in app: Rate limit reached for IP: 192.168.1.100
+[2024-03-20 10:16:23,123] ERROR in database_handlers: Database connection timeout after 30s
+[2024-03-20 10:16:23,234] INFO in app: Retrying database connection...
+[2024-03-20 10:16:24,345] INFO in database_handlers: Database connection re-established
+[2024-03-20 10:17:01,567] INFO in app: POST request received at /api/v1/embed
+[2024-03-20 10:17:01,789] DEBUG in embedding: Processing document for embedding, size: 2048 bytes
+[2024-03-20 10:17:02,890] INFO in app: Document successfully embedded
+[2024-03-20 10:17:02,901] INFO in werkzeug: 127.0.0.1 - - [20/Mar/2024 10:17:02] "POST /api/v1/embed HTTP/1.1" 201 -
+[2024-03-20 10:18:34,567] ERROR in rag: Failed to generate response: API rate limit exceeded
+[2024-03-20 10:18:34,678] INFO in werkzeug: 127.0.0.1 - - [20/Mar/2024 10:18:34] "POST /api/v1/chat HTTP/1.1" 429 -
+[2024-03-20 10:19:45,123] INFO in app: Health check initiated
+[2024-03-20 10:19:45,234] INFO in database_healthcheck: All systems operational
+[2024-03-20 10:19:45,345] INFO in werkzeug: 127.0.0.1 - - [20/Mar/2024 10:19:45] "GET /health HTTP/1.1" 200 -

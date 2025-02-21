@@ -1,6 +1,7 @@
 from pydantic import BaseModel, Field
 from typing import Optional
 from .parsing_data_models import LogEntry,LogChain
+from uuid import uuid4
 
 """This module contains Pydantic models to build a Directed Acyclic Graph (DAG) out of parsed log entries"""
 
@@ -12,6 +13,7 @@ class DAGNode(BaseModel):
     log_entry: LogEntry = Field(description="Log entry information")
     
 class DAG(BaseModel):
+    id: str = Field(default_factory=lambda: str(uuid4()))
     """Directed Acyclic Graph (DAG) of log entries"""
     nodes: list[DAGNode] = Field(description="List of nodes in the graph")
     root_id: str = Field(description="Unique identifier of the root node")

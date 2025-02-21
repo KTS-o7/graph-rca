@@ -1,0 +1,8 @@
+[2024-03-20 10:15:45,234] DEBUG in database_handlers: Successfully connected to database
+[2024-03-20 10:16:12,789] WARNING in app: Rate limit reached for IP: 192.168.1.100
+[2024-03-20 10:16:23,123] ERROR in database_handlers: Database connection timeout after 30s
+[2024-03-20 10:16:23,234] INFO in app: Retrying database connection...
+[2024-03-20 10:17:01,789] DEBUG in embedding: Processing document for embedding, size: 2048 bytes
+[2024-03-20 10:17:02,890] INFO in app: Document successfully embedded
+[2024-03-20 10:17:02,901] INFO in werkzeug: 127.0.0.1 - - [20/Mar/2024 10:17:02] "POST /api/v1/embed HTTP/1.1" 201 -
+[2024-03-20 10:18:34,567] ERROR in rag: Failed to generate response: API rate limit exceeded

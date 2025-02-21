@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field
 from typing import Optional
-from ..models.graph_data_models import DAGNode,DAG
-from ..models.parsing_data_models import LogChain
+from models.graph_data_models import DAGNode,DAG
+from models.parsing_data_models import LogChain
 
 class GraphGenerator:
     def __init__(self,log_chain:LogChain) -> None:
@@ -46,10 +46,21 @@ class GraphGenerator:
     def _find_root_and_leaf_nodes(self) -> None:
         """Find the root and leaf nodes in the graph"""
         try:
-            all_node_ids = set(node.id for node in self.dag_nodes)
-            child_node_ids = set(child_id for node in self.dag_nodes for child_id in node.children)
-            self.root_id = (all_node_ids - child_node_ids).pop()
-            self.leaf_ids = list(all_node_ids - set(self.root_id))
+            # Find root node (no parents)
+            self.root_id = next(
+                node.id for node in self.dag_nodes 
+                if not node.parent_id
+            )
+            
+            # Find leaf nodes (no children)
+            nodes_with_children = set()
+            for node in self.dag_nodes:
+                nodes_with_children.update(node.children)
+                
+            self.leaf_ids = [
+                node.id for node in self.dag_nodes
+                if node.id not in nodes_with_children
+            ]
             
         except Exception as e:
             raise RuntimeError(f"Failed to find root and leaf nodes: {str(e)}")

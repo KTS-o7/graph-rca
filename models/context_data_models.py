@@ -8,3 +8,7 @@ class Context(BaseModel):
     root_cause: str = Field(description="Root cause of the issue")
     causal_chain: list[str] = Field(description="Causal chain of the issue")
     
+class Solution(BaseModel):
+    response: str = Field(description="Generated solution response text")
+    sources: list[str] = Field(default=[], description="List of reference document sources used")
+    
