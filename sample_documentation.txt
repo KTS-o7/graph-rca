@@ -1,110 +1,89 @@
-# Log Analysis System Documentation
+# Flask Server Documentation
 
-## Page 1: System Overview
+## Overview
+The Flask server provides a RESTful API interface for the application. It handles HTTP requests, manages database connections, and serves as the backend for the web application.
 
-The Log Analysis System is a sophisticated tool designed to parse, analyze, and extract meaningful insights from log files. It employs advanced natural language processing techniques to understand log patterns and build causal relationships between log entries. This system is essential for maintaining system reliability, diagnosing issues, and optimizing performance.
+## Setup and Installation
+1. Install Flask and dependencies:
+   ```bash
+   pip install flask
+   pip install flask-cors
+   pip install python-dotenv
+   ```
 
-### Key Components:
+2. Environment Configuration:
+   - Create a `.env` file in the root directory
+   - Add required environment variables:
+     ```
+     FLASK_APP=frontend/app.py
+     FLASK_ENV=development
+     DATABASE_URL=your_database_connection_string
+     ```
 
-1. **Log Parser**
-   - **Handles Multiple Log Formats:** Supports various log file formats including JSON, XML, and plain text.
-   - **Extracts Structured Data using Pydantic Models:** Utilizes Pydantic for defining and validating the structure of log entries.
-   - **Validates Log Entry Fields:** Ensures all necessary fields are present and correctly formatted.
-   - **Processes Both Single Entries and Batch Files:** Capable of handling individual log entries as well as large batches of log data.
-   - **Leverages LLM Capabilities for Enhanced Parsing:** Integrates Large Language Models to improve parsing accuracy and extract deeper insights.
-   - **Supports Extensible Format Definitions:** Allows easy addition of new log formats through configurable templates.
+## API Endpoints
 
-2. **Graph Generator**
-   - **Creates Directed Acyclic Graphs (DAG) from Log Entries:** Constructs DAGs to represent the relationships between different log events.
-   - **Establishes Parent-Child Relationships between Events:** Identifies and maps the hierarchical relationships among log entries.
-   - **Identifies Root Causes and Leaf Nodes:** Detects primary sources of issues and end points in the causal chain.
-   - **Maintains Temporal Ordering of Events:** Keeps events in chronological order to ensure accurate sequence representation.
-   - **Optimizes Graph Structure for Analysis:** Refines the graph for efficient querying and analysis.
-   - **Provides Visualization Capabilities:** Offers tools to visually represent the DAG for easier interpretation and reporting.
+### Health Check
+- **GET** `/health`
+  - Returns server and database health status
+  - Response: `{"status": "healthy", "database": "connected"}`
 
-3. **Context Builder**
-   - **Analyzes the Generated DAG Structure:** Examines the DAG to understand the flow and impact of events.
-   - **Extracts Causal Chains of Events:** Identifies sequences of events that lead to specific outcomes or issues.
-   - **Identifies Root Causes of Issues:** Pinpoints the underlying reasons for system anomalies or failures.
-   - **Provides Contextual Understanding of System State:** Delivers insights into the overall health and status of the system at any given time.
-   - **Generates Human-Readable Summaries:** Creates easy-to-understand summaries of complex log data and analyses.
-   - **Supports Custom Context Rules:** Allows customization of context extraction rules to cater to specific system requirements.
+### RAG Operations
+- **POST** `/api/query`
+  - Performs RAG-based query on documents
+  - Request body: `{"query": "your question here"}`
+  - Response: `{"answer": "generated response", "sources": ["source1", "source2"]}`
 
-4. **Health Check System**
-   - **Monitors System Components:** Continuously checks the status of various system parts to ensure they are functioning correctly.
-   - **Validates Database Connections:** Ensures reliable connectivity and performance of database systems.
-   - **Checks Service Availability:** Monitors the uptime and responsiveness of essential services.
-   - **Reports System Metrics:** Collects and reports key performance indicators and health metrics.
-   - **Provides Health Status API:** Offers an API endpoint for retrieving real-time health status and metrics data.
+### Database Operations
+- **GET** `/api/documents`
+  - Retrieves list of available documents
+  - Response: `{"documents": [{"id": 1, "title": "doc1"}, ...]}`
 
-## Page 2: Usage Examples
+## Error Handling
+The server implements standard HTTP error codes:
+- 400: Bad Request
+- 401: Unauthorized
+- 404: Not Found
+- 500: Internal Server Error
 
-### Example 1: Basic Log Processing
-
-This example demonstrates how to use the Log Analysis System to process a simple log file, generate a DAG, build context, and check system health.
-
-**Step 1: Initialize the Log Parser**
-
-```python
-from utilz.log_parser import LogParser
-
-# Initialize the parser
-parser = LogParser()
+## Testing
+Run tests using pytest:
+```bash
+pytest tests/
 ```
 
-**Step 2: Parse the Log File**
+## Security Considerations
+- CORS is enabled for specified origins
+- API endpoints require authentication tokens
+- Input validation is implemented for all requests
 
-```python
-log_file_path = 'logs/system_logs.json'
-log_data = parser.parse_log_from_file(log_file_path)
-print("Parsed Log Data:", log_data)
-```
+## Monitoring
+The server includes:
+- Request logging
+- Performance metrics
+- Database connection monitoring
+- Error tracking
 
-**Step 3: Generate the Graph**
+## Development Guidelines
+1. Follow PEP 8 style guide
+2. Write unit tests for new endpoints
+3. Update documentation for API changes
+4. Use type hints for function parameters
 
-```python
-from utilz.graph_generator import GraphGenerator
+## Deployment
+1. Set environment to production:
+   ```bash
+   export FLASK_ENV=production
+   ```
+2. Use gunicorn for production deployment:
+   ```bash
+   gunicorn -w 4 -b 0.0.0.0:8000 frontend.app:app
+   ```
 
-# Initialize the graph generator with parsed log data
-graph_generator = GraphGenerator(log_data)
-
-# Generate the DAG
-dag = graph_generator.generate_dag()
-print("Generated DAG:", dag)
-```
-
-**Step 4: Build Context from the DAG**
-
-```python
-from utilz.context_builder import ContextBuilder
-
-# Initialize the context builder
-context_builder = ContextBuilder()
-
-# Build context using the DAG
-context = context_builder.build_context(dag)
-print("Context:", context)
-```
-
-**Step 5: Perform Health Check**
-
-```python
-from utilz.database_healthcheck import ServerHealthCheck
-
-# Initialize the health check system
-health_check = ServerHealthCheck()
-
-# Perform health checks
-health_status = health_check.perform_health_checks()
-print("Health Status:", health_status)
-```
-
-**Outcome:**
-
-- The log file is parsed, and structured data is extracted.
-- A DAG is generated to represent the relationships between log events.
-- Contextual information is built to understand the root causes and causal chains.
-- The health check system validates the overall system health and reports metrics.
-
-This example showcases the seamless integration of the Log Analysis System's components to provide a comprehensive analysis of log data, aiding in efficient troubleshooting and system maintenance.
-```
+## Troubleshooting
+Common issues and solutions:
+1. Database connection errors:
+   - Verify DATABASE_URL in .env
+   - Check database service status
+2. CORS issues:
+   - Verify allowed origins configuration
+   - Check client request headers
